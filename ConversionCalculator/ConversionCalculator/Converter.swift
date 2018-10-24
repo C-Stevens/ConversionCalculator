@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Converter {
+struct Converter {
     let label: String
     let inputUnit: String
     let outputUnit: String
