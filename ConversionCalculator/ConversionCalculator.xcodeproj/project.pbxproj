@@ -14,6 +14,7 @@
 		03DC6FE12180002600765F68 /* ConversionCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC6FE02180002600765F68 /* ConversionCalculatorTests.swift */; };
 		03DC6FEC2180002600765F68 /* ConversionCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC6FEB2180002600765F68 /* ConversionCalculatorUITests.swift */; };
 		03DC6FFC2180009F00765F68 /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC6FFB2180009F00765F68 /* ConverterViewController.swift */; };
+		03DC6FFE218011D800765F68 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC6FFD218011D800765F68 /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		03DC6FEB2180002600765F68 /* ConversionCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionCalculatorUITests.swift; sourceTree = "<group>"; };
 		03DC6FED2180002600765F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03DC6FFB2180009F00765F68 /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
+		03DC6FFD218011D800765F68 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				03DC6FCB2180002500765F68 /* AppDelegate.swift */,
 				03DC6FFB2180009F00765F68 /* ConverterViewController.swift */,
+				03DC6FFD218011D800765F68 /* Converter.swift */,
 				03DC6FCF2180002500765F68 /* Main.storyboard */,
 				03DC6FD22180002600765F68 /* Assets.xcassets */,
 				03DC6FD42180002600765F68 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03DC6FCC2180002500765F68 /* AppDelegate.swift in Sources */,
+				03DC6FFE218011D800765F68 /* Converter.swift in Sources */,
 				03DC6FFC2180009F00765F68 /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,8 +10,27 @@ import UIKit
 
 class ConverterViewController: UIViewController {
 
+    @IBOutlet weak var outputDisplay: UITextField!
+    @IBOutlet weak var inputDisplay: UITextField!
+    
+    var converters: [Converter] = [Converter(label: "Farenheit to Celcius", inputUnit: "°F", outputUnit: "°C"),
+                                   Converter(label: "Celcius to Farenheit", inputUnit: "°C", outputUnit: "°F"),
+                                   Converter(label: "Miles to Kilometers", inputUnit: "mi", outputUnit: "km"),
+                                   Converter(label: "Kilometers to Miles", inputUnit: "km", outputUnit: "mi")]
+    
+    @IBAction func converterButtonAction(_ sender: UIButton) {
+        //TODO
+    }
+    
+    func setConverter(to converter: Converter) {
+        outputDisplay.text = converter.outputUnit
+        inputDisplay.text = converter.inputUnit
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let defaultConverter: Converter = converters[0]
+        setConverter(to: defaultConverter)
 
         // Do any additional setup after loading the view.
     }
